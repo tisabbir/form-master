@@ -1,11 +1,13 @@
 import "./App.css";
-import StatefulForm from "./Components/StatefulForm/StatefulForm";
+import HookForm from "./Components/HookForm/HookForm";
 
 function App() {
   return (
     <>
       {/* <SimpleForm></SimpleForm> */}
-      <StatefulForm></StatefulForm>
+      {/* <StatefulForm></StatefulForm> */}
+      {/* <RefForm></RefForm> */}
+      <HookForm></HookForm>
     </>
   );
 }
